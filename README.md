@@ -1,5 +1,5 @@
 ##Google Search - Link Copy - 0.0.1
-I was fed up of the redirection urls google gives on it's search results, making it a chore to copy the link address.
+I was fed up of the redirection urls google gives on its search results, making it a chore to copy the link address.
 So I went ahead and created this project overnight.
 
 A tiny extension for `Google Chrome` to make copying links from google pain free.
