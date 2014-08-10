@@ -10,7 +10,8 @@ Generally when you right click a link on google search and select
 
 So I introduced an extra option in the contextmenu for google search links, `Copy real link`, using this you can copy the original link without any alteration.
 
-To install, download the zip provided by github. Extract it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
+Putting this on chromestore might take some time.<br />
+To install, download the zip(right hand side of the page) provided by github. Extract it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
 Click on `Load unpacked extension` button and choose the path to which you have extracted. Now open new google search page and start using it.
 
 I will put up a link for the `.crx` when I find the time. I have just put the copy for the query results. Don't expect it to work for normal links on google search. Just use the `Copy Link Address` provided by chrome to do that.
