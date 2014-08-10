@@ -10,4 +10,8 @@ Click on `Load unpacked extension` button and choose the path to which you have 
 
 I will put up a link for the `.crx` when I find the time. I have just put the copy for the query results. Don't expect it to work for normal links on google search. Just use the `Copy Link Address` provided by chrome to do that.
 
+###Features planned
+Copy text of url (heading of results)
+Copy urls in facebook as facebook also puts a redirection wall for the links in chat and posts
+
 
