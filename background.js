@@ -1,15 +1,10 @@
 function genericOnClick(info, tab) {
-	chrome.tabs.sendRequest(tab.id, "getClickedEl", function(clickedEl) {
-		//now using DOM to get data-hrf from the content script
-		//To implement - should lake at using regular expressions to extract the correct url from the redirecting url
-		//This will help to copy in facebook too.
-		console.log('nitho aran nee needai pona');
-		console.log(clickedEl);
-		var sandbox = $('#sandbox').val(clickedEl.value).select();
-    	document.execCommand('copy');
-    	sandbox.val('');
-		console.log(clickedEl);
-    });
+	var url=info.linkUrl;
+	var testRE = url.match("url=([^&]*)&");
+	var str=decodeURIComponent(testRE[1]);
+	var sandbox = $('#sandbox').val(str).select();
+    document.execCommand('copy');
+    sandbox.val('');
 }
 
 var showForPages=["https://www.google.com/*",
