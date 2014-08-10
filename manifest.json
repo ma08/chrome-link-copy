@@ -9,7 +9,7 @@
   },
    "content_scripts": [
   {
-    "matches": ["http://www.google.co.in/*",  "https://www.google.co.in/*"],
+    "matches": ["http://www.google.co.in/*",  "https://www.google.co.in/*", "http://www.google.com/*", "https://www.google.com/*"],
     "js": ["content.js", "jquery.js"]
   }],
   "manifest_version": 2
