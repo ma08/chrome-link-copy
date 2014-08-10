@@ -2,6 +2,8 @@
 I was head up of the redirection urls google gives on it's search results, making it a chore to copy the link address.
 So I went ahead and created this project overnight.
 
+![alt tag](http://i.imgur.com/2adtlYg.png)
+
 A tiny extension for `Google Chrome` to make copying links from google pain free.
 Generally when you right click a link on google search and select
 `Copy Link Address`, the url copied is google's redirecting url and not the original url.
