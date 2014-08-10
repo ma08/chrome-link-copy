@@ -17,7 +17,7 @@ Using this extension, the copied link is this
 `http://en.wikipedia.org/wiki/Led_Zeppelin`
 
 Putting this on chromestore might take some time.<br />
-To install, download the zip(by clicked the button on the right hand side of the page ) provided by github or [click here](https://github.com/ma08/chrome-link-copy/archive/master.zip). Extract the zip file it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
+To install, download the zip(by clicking the button on the right hand side of the page ) provided by github or [click here](https://github.com/ma08/chrome-link-copy/archive/master.zip). Extract the zip file it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
 Click on `Load unpacked extension` button and choose the path to which you have extracted. Now open new google search page and start using it.
 
 I will put up a link for the `.crx` when I find the time. I have just put the copy for the query results. Don't expect it to work for normal links on google search. Just use the `Copy Link Address` provided by chrome to do that.
