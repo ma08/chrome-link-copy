@@ -1,5 +1,8 @@
 function genericOnClick(info, tab) {
 	chrome.tabs.sendRequest(tab.id, "getClickedEl", function(clickedEl) {
+		//now using DOM to get data-hrf from the content script
+		//To implement - should lake at using regular expressions to extract the correct url from the redirecting url
+		//This will help to copy in facebook too.
 		console.log('nitho aran nee needai pona');
 		console.log(clickedEl);
 		var sandbox = $('#sandbox').val(clickedEl.value).select();
