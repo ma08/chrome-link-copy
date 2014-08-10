@@ -16,6 +16,11 @@ So I introduced an extra option in the contextmenu for google search links, `Cop
 Using this extension, the copied link is this
 `http://en.wikipedia.org/wiki/Led_Zeppelin`
 
+Now working for Facebook too.
+When you copy a link in `facebook` chat, you get it like this `http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.arsenal.com%2Fhome&h=iAQF4eyqM`, using this extension the copied url will be `http://www.arsenal.com/home`.
+![alt tag](http://i.imgur.com/DTgP6et.png)
+
+
 Putting this on chromestore might take some time.<br />
 To install, download the zip(by clicking the button on the right hand side of the page ) provided by github or [click here](https://github.com/ma08/chrome-link-copy/archive/master.zip). Extract the zip file it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
 Click on `Load unpacked extension` button and choose the path to which you have extracted. Now open new google search page and start using it.
@@ -30,7 +35,8 @@ Copy urls in facebook as facebook also puts a redirection wall for the links in 
 
 
 ###For Developers
-In the `master` branch(the production version), I am getting the DOM from the page and use the `data-href` attribute to get the urls
+In the `master` branch(the production version), I am getting the DOM from the page and use the `data-href` attribute to get the urls.
 In the `reg` branch, I am using regex with no content script. This is much more efficient and can be extended to multiple sites. Will  merge into `master` after testing and thereby avoiding use of content script.
+Copying urls in facebook(chat and posts) is working in `reg` branch. Try it if you are interested
 
 

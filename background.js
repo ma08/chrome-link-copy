@@ -1,6 +1,16 @@
 function genericOnClick(info, tab) {
 	var url=info.linkUrl;
-	var testRE = url.match("url=([^&]*)&");
+	var testRE;
+	if(info.pageUrl.match("http(s|):\/\/www.google")){
+		testRE = url.match("url=([^&]*)&");
+
+	}
+	else if(info.pageUrl.match("http(s|):\/\/www.facebook")){
+		testRE = url.match("u=([^&]*)&");
+		console.log(testRE);
+
+	}
+	console.log(info);
 	var str=decodeURIComponent(testRE[1]);
 	var sandbox = $('#sandbox').val(str).select();
     document.execCommand('copy');
@@ -8,6 +18,8 @@ function genericOnClick(info, tab) {
 }
 
 var showForPages=["https://www.google.com/*",
+	"https://www.facebook.com/*",
+	"http://www.facebook.com/*",
 	"https://www.google.ad/*",
 	"https://www.google.ae/*",
 	"https://www.google.com.af/*",
