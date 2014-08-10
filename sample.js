@@ -23,7 +23,7 @@ var contexts = ["link"
                 ];
 for (var i = 0; i < contexts.length; i++) {
   var context = contexts[i];
-  var title = "copy real link";
+  var title = "Copy real link";
   var id = chrome.contextMenus.create({"title": title, "contexts":[context],
                                        "onclick": genericOnClick,
                                        "documentUrlPatterns":showForPages}
