@@ -32,12 +32,9 @@ I will put up a link for the `.crx` when I find the time. I have just put the co
 Working for all popular google search domains. Progressing towards implementing for every domain.
 
 ###Features planned
-Copy text of url (heading of results) <br />
+Copy text of url for google search results (heading of results) <br />
 
 
-###For Developers
-In the `master` branch(the production version), I am getting the DOM from the page and use the `data-href` attribute to get the urls.
-In the `reg` branch, I am using regex with no content script. This is much more efficient and can be extended to multiple sites. Will  merge into `master` after testing and thereby avoiding use of content script.
-Copying urls in facebook(chat) is working in `reg` branch. Try it if you are interested
+
 
 
