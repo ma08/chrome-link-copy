@@ -1,4 +1,6 @@
-##Google Search - Link Copy - 0.0.1
+####This is a feature branch.<br /> Testing copying urls using regex instead of DOM manipulation and introduced `Facebook` link copying too
+
+##Google Search  and Facebook Chat- Link Copy - 0.0.1
 I was fed up of the redirection urls google gives on its search results, making it a chore to copy the link address.
 So I went ahead and created this project overnight.
 
@@ -16,6 +18,11 @@ So I introduced an extra option in the contextmenu for google search links, `Cop
 Using this extension, the copied link is this
 `http://en.wikipedia.org/wiki/Led_Zeppelin`
 
+Now working for Facebook too.
+When you copy a link in `facebook` chat, you get it like this `http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.arsenal.com%2Fhome&h=iAQF4eyqM`, using this extension the copied url will be `http://www.arsenal.com/home`.
+![alt tag](http://i.imgur.com/DTgP6et.png)
+
+
 Putting this on chromestore might take some time.<br />
 To install, download the zip(by clicking the button on the right hand side of the page ) provided by github or [click here](https://github.com/ma08/chrome-link-copy/archive/master.zip). Extract the zip file it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
 Click on `Load unpacked extension` button and choose the path to which you have extracted. Now open new google search page and start using it.
@@ -25,12 +32,9 @@ I will put up a link for the `.crx` when I find the time. I have just put the co
 Working for all popular google search domains. Progressing towards implementing for every domain.
 
 ###Features planned
-Copy text of url (heading of results) <br />
-Copy urls in facebook as facebook also puts a redirection wall for the links in chat and posts
+Copy text of url for google search results (heading of results) <br />
 
 
-###For Developers
-In the `master` branch(the production version), I am getting the DOM from the page and use the `data-href` attribute to get the urls
-In the `reg` branch, I am using regex with no content script. This is much more efficient and can be extended to multiple sites. Will  merge into `master` after testing and thereby avoiding use of content script.
+
 
 
