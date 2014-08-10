@@ -22,6 +22,7 @@ When you copy a link in `facebook` chat, you get it like this `http://www.facebo
 
 
 Putting this on chromestore might take some time.<br />
+###Installation
 To install, download the zip(by clicking the button on the right hand side of the page ) provided by github or [click here](https://github.com/ma08/chrome-link-copy/archive/master.zip). Extract the zip file it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
 Click on `Load unpacked extension` button and choose the path to which you have extracted. Now open new google search page and start using it.
 
