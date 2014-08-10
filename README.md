@@ -1,3 +1,5 @@
+####This is a feature branch. Testing copying url's using regex instead of DOM manipulation and introduced `Facebook` linke copying too
+
 ##Google Search - Link Copy - 0.0.1
 I was fed up of the redirection urls google gives on its search results, making it a chore to copy the link address.
 So I went ahead and created this project overnight.
@@ -31,7 +33,6 @@ Working for all popular google search domains. Progressing towards implementing 
 
 ###Features planned
 Copy text of url (heading of results) <br />
-Copy urls in facebook as facebook also puts a redirection wall for the links in chat and posts
 
 
 ###For Developers
