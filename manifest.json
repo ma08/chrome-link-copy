@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "permissions": ["contextMenus", "clipboardWrite",  "http://www.google.co.in/*",  "https://www.google.co.in/*"  ],
   "background": {
-    //"scripts": ["sample.js" ,  "jquery.js"],
+    //"scripts": ["background.js" ,  "jquery.js"],
     "page": "background.html"
   },
    "content_scripts": [
