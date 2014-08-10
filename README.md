@@ -29,3 +29,8 @@ Copy text of url (heading of results) <br />
 Copy urls in facebook as facebook also puts a redirection wall for the links in chat and posts
 
 
+###For Developers
+In the `master` branch(the production version), I am getting the DOM from the page and use the `data-href` attribute to get the urls
+In the `reg` branch, I am using regex with no content script. This is much more efficient and can be extended to multiple sites. Will  merge into `master` after testing and thereby avoiding use of content script.
+
+
