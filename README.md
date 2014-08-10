@@ -1,5 +1,3 @@
-####This is a feature branch.<br /> Testing copying urls using regex instead of DOM manipulation and introduced `Facebook` link copying too
-
 ##Google Search  and Facebook Chat- Link Copy - 0.0.1
 I was fed up of the redirection urls google gives on its search results, making it a chore to copy the link address.
 So I went ahead and created this project overnight.
