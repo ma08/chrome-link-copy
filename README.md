@@ -1,4 +1,4 @@
-####This is a feature branch. Testing copying url's using regex instead of DOM manipulation and introduced `Facebook` linke copying too
+####This is a feature branch.<br /> Testing copying urls using regex instead of DOM manipulation and introduced `Facebook` link copying too
 
 ##Google Search - Link Copy - 0.0.1
 I was fed up of the redirection urls google gives on its search results, making it a chore to copy the link address.
