@@ -1,6 +1,6 @@
 ####This is a feature branch.<br /> Testing copying urls using regex instead of DOM manipulation and introduced `Facebook` link copying too
 
-##Google Search - Link Copy - 0.0.1
+##Google Search  and Facebook Chat- Link Copy - 0.0.1
 I was fed up of the redirection urls google gives on its search results, making it a chore to copy the link address.
 So I went ahead and created this project overnight.
 
@@ -38,6 +38,6 @@ Copy text of url (heading of results) <br />
 ###For Developers
 In the `master` branch(the production version), I am getting the DOM from the page and use the `data-href` attribute to get the urls.
 In the `reg` branch, I am using regex with no content script. This is much more efficient and can be extended to multiple sites. Will  merge into `master` after testing and thereby avoiding use of content script.
-Copying urls in facebook(chat and posts) is working in `reg` branch. Try it if you are interested
+Copying urls in facebook(chat) is working in `reg` branch. Try it if you are interested
 
 
