@@ -1,0 +1,16 @@
+{
+  "name": "Google Search Link Copy",
+  "description": "Provides an option to copy the real link on google search instead of redirecting url",
+  "version": "0.0.1",
+  "permissions": ["contextMenus", "clipboardWrite",  "http://www.google.co.in/*",  "https://www.google.co.in/*"  ],
+  "background": {
+    //"scripts": ["sample.js" ,  "jquery.js"],
+    "page": "background.html"
+  },
+   "content_scripts": [
+  {
+    "matches": ["http://www.google.co.in/*",  "https://www.google.co.in/*"],
+    "js": ["content.js", "jquery.js"]
+  }],
+  "manifest_version": 2
+}
