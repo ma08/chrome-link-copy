@@ -10,8 +10,10 @@ function genericOnClick(info, tab) {
 		console.log(testRE);
 
 	}
-	console.log(info);
-	var str=decodeURIComponent(testRE[1]);
+	var str=info.linkUrl;
+	if(testRE){
+		str=decodeURIComponent(testRE[1]);
+	}
 	var sandbox = $('#sandbox').val(str).select();
     document.execCommand('copy');
     sandbox.val('');
