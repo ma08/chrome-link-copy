@@ -1,10 +1,10 @@
 ##Google Search  and Facebook Chat- Link Copy - 0.0.1
-I was fed up of the redirection urls google gives on its search results, making it a chore to copy the link address.
+I was fed up of the redirection urls google gives on its search results - making it a chore to copy the link address.
 So I went ahead and created this project overnight.
 
 ![alt tag](http://i.imgur.com/2adtlYg.png)
 
-Using 
+
 
 A tiny extension for `Google Chrome` to make copying links from google pain free.
 Generally when you right click a link on google search and select
@@ -18,7 +18,7 @@ Using this extension, the copied link is this
 
 Now working for Facebook too.
 When you copy a link in `facebook` chat, you get it like this `http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.arsenal.com%2Fhome&h=iAQF4eyqM`, using this extension the copied url will be `http://www.arsenal.com/home`.
-![alt tag](http://i.imgur.com/DTgP6et.png)
+![alt tag](http://i.imgur.com/qCecGZK.png)
 
 
 Putting this on chromestore might take some time.<br />
