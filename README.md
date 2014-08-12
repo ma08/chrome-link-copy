@@ -24,12 +24,9 @@ When you copy a link in `facebook` chat, you get it like this `http://www.facebo
 Putting this on chromestore might take some time.<br />
 ###Installation
 To install, download the zip(by clicking the button on the right hand side of the page ) provided by github or [click here](https://github.com/ma08/chrome-link-copy/archive/master.zip). Extract the zip file it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
-Click on `Load unpacked extension` button and choose the path to which you have extracted. Now open new google search page and start using it.
+Click on `Load unpacked extension` button and choose the path to which you have extracted. Now open a new google search page/facebook chat box and start using it. Make sure to refresh the page after Installation.
 
-I will put up a link for the `.crx` when I find the time. I have just put the copy for the query results. Don't expect it to work for normal links on google search. Just use the `Copy Link Address` provided by chrome to do that.
-
-Working for all popular google search domains. Progressing towards implementing for every domain.
-
+I will put up a link for the `.crx` when I find the time.
 ###Features planned
 Copy text of url for google search results (heading of results) <br />
 
