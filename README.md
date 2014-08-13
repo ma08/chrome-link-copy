@@ -1,4 +1,7 @@
 ##Google Search  and Facebook Chat- Link Copy - 0.0.1
+
+[Get this on chromestore](https://chrome.google.com/webstore/detail/google-search-facebook-ch/opelelcojgjgddbfhlolihhdmjodmjdf)
+
 I was fed up of the redirection urls google gives on its search results - making it a chore to copy the link address.
 So I went ahead and created this project overnight.
 
