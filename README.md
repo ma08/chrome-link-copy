@@ -17,7 +17,7 @@ Using this extension, the copied link is this
 `http://en.wikipedia.org/wiki/Led_Zeppelin`
 
 Now working for Google Images too. Using the `Copy Image Url` by chrome gives you an url which is obfuscated and very hard to use in chat, comments and such. Using this image gives you the actual image url.
-![alt tag](http://imgur.com/gEAMWrD)
+![alt tag](http://imgur.com/gEAMWrD.png)
 
 Now working for Facebook too.
 When you copy a link in `facebook` chat, you get it like this `http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.arsenal.com%2Fhome&h=iAQF4eyqM`, using this extension the copied url will be `http://www.arsenal.com/home`.
