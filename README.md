@@ -31,9 +31,10 @@ When you copy a link in `facebook` chat, you get it like this `http://www.facebo
 ![alt tag](http://i.imgur.com/qCecGZK.png)
 
 
-Putting this on chromestore might take some time.<br />
 ###Installation
-To install, download the zip(by clicking the button on the right hand side of the page ) provided by github or [click here](https://github.com/ma08/chrome-link-copy/archive/master.zip). Extract the zip file it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
+[Install from chromestore](https://chrome.google.com/webstore/detail/google-search-facebook-ch/opelelcojgjgddbfhlolihhdmjodmjdf) or
+
+Download the zip(by clicking the button on the right hand side of the page ) provided by github or [click here](https://github.com/ma08/chrome-link-copy/archive/master.zip). Extract the zip file it to a folder. Open `chrome://extensions`. Select `Developer Mode` option. 
 Click on `Load unpacked extension` button and choose the path to which you have extracted. Now open a new google search page/facebook chat box and start using it. Make sure to refresh the page after Installation.
 
 I will put up a link for the `.crx` when I find the time.
