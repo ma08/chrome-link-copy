@@ -1,5 +1,6 @@
 {
   "name": "Google Search, Facebook Chat - Copy Url",
+  "short_name": "copy link",
   "description": "Provides an option to copy the real link on google search and facebook chat instead of redirecting url",
   "version": "0.0.1",
   "permissions": ["contextMenus", "clipboardWrite"],
@@ -7,7 +8,9 @@
     "page": "background.html"
   },
   "icons": {
-  	  "128":"copy_128.png"
+  	  "16":"icon_16.png",
+  	  "48":"icon_48.png",
+  	  "128":"icon_128.png"
   },
   "manifest_version": 2
 }
