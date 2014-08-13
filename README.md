@@ -16,7 +16,7 @@ So I introduced an extra option in the contextmenu for google search links, `Cop
 Using this extension, the copied link is this
 `http://en.wikipedia.org/wiki/Led_Zeppelin`
 
-Now working for Google Images too. Using the `Copy Image Url` by chrome gives you an url which is obfuscated and very hard to use in chat, comments and such. Using this image gives you the actual image url.
+Now working for Google Images too. Using the `Copy Image Url` by chrome gives you an url which is obfuscated and very hard to use in chat, comments and such. Using this extension gives you the actual image url.
 ![alt tag](http://imgur.com/gEAMWrD.png)
 
 Now working for Facebook too.
