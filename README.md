@@ -1,4 +1,4 @@
-##Google Search  and Facebook Chat- Link Copy - 0.0.1
+##Google Search, Facebook Chat and Hangouts(in Gmail)- Link Copy - 0.0.4
 
 [Get this on chromestore](https://chrome.google.com/webstore/detail/copy-real-url/opelelcojgjgddbfhlolihhdmjodmjdf)
 
@@ -29,6 +29,10 @@ Using this you get the actual source image instead of the cached(smaller) versio
 Now working for Facebook too.
 When you copy a link in `facebook` chat, you get it like this `http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.arsenal.com%2Fhome&h=iAQF4eyqM`, using this extension the copied url will be `http://www.arsenal.com/home`.
 ![alt tag](http://i.imgur.com/qCecGZK.png)
+
+
+Now working for Hangouts(in Gmail) too.
+![alt tag](http://i.imgur.com/vWxsfK0.png)
 
 
 ###Installation
