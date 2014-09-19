@@ -4,11 +4,13 @@ function genericOnClick(info, tab) {
 	if(info.pageUrl.match("http(s|):\/\/www.google")){
 		testRE = url.match("url=([^&]*)&");
 
+	}//hangouts
+  else if(info.pageUrl.match("chrome-extension://nckgahadagoaajjgafhacjanaoiihapd")){
+		testRE = url.match("url\\?q=([^&]*)&");
+
 	}
 	else if(info.pageUrl.match("http(s|):\/\/www.facebook")){
 		testRE = url.match("u=([^&]*)&");
-		console.log(testRE);
-
 	}
 	var str=info.linkUrl;
 	if(testRE){
@@ -21,6 +23,8 @@ function genericOnClick(info, tab) {
 
 var showForPages=["https://www.google.com/*",
 	"https://www.facebook.com/*",
+  "https://talkgadget.google.com/*",
+  "http://talkgadget.google.com/*",
 	"http://www.facebook.com/*",
 	"https://www.google.ad/*",
 	"https://www.google.ae/*",
@@ -412,6 +416,7 @@ var contexts = ["link"];
 var id = chrome.contextMenus.create({"title": title, "contexts":contexts,
                                        "onclick": genericOnClick,
                                        "documentUrlPatterns":showForPages}
+                                       //}
                                        );
 
 

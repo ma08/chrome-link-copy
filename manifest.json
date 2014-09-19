@@ -1,8 +1,8 @@
 {
   "name": "Copy Real Url",
   "short_name": "copy link",
-  "description": "Provides an option to copy the real link on Google Search and Facebook Chat instead of redirecting url",
-  "version": "0.0.3",
+  "description": "Provides an option to copy the real link on Google Search, Facebook Chat and Hangouts(Google Talk) instead of redirecting url",
+  "version": "0.0.4",
   "permissions": ["contextMenus", "clipboardWrite"],
   "background": {
     "page": "background.html"
