@@ -14,6 +14,9 @@ function genericOnClick(info, tab) {
     else if(info.pageUrl.match("http(s|):\/\/www.facebook")){
         testRE = url.match("u=([^&]*)&");
     }
+    else if(info.pageUrl.match("http(s|):\/\/.*search.yahoo")){
+        testRE = url.match("RU=([^\/]*)\/");
+    }
     var str=info.linkUrl;
     if(testRE){
         str=decodeURIComponent(testRE[1]);
@@ -29,6 +32,9 @@ var showForPages=[
     "https://gmail.com/*",
     //"http://mail.google.com/*",
     "https://www.google.com/*",
+    "https://*.search.yahoo.com/*",
+    "http://*.search.yahoo.com/*",
+    "https://www.facebook.com/*",
     "https://www.facebook.com/*",
     "https://talkgadget.google.com/*",
     "https://hangouts.google.com/*",
